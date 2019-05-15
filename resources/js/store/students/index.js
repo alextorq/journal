@@ -34,6 +34,7 @@ export default {
         },
         addStudentsInformation(store, students) {
             store.students = students;
+            //тут дублируется мутация addStudents            
         },
     },
     actions: {
